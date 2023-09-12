@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>My Personal Website</title>
+</head>
+<body>
+ <h1>My Personal Website</h1>
+ <p>This is my personal website. I use it to share my thoughts, ideas, and projects with the world.</p>
+ <p>Here are some of the things you can find on my website:</p>
+ <ul>
+ <li>My bio</li>
+ <li>My portfolio</li>
+ <li>My blog</li>
+ <li>My contact information</li>
+ </ul>
+ <p>I hope you enjoy my website!</p>
+</body>
+</html>
