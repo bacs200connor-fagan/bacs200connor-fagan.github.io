@@ -3,45 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <title>Educate Me</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Educate Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .video-container {
+      max-width: 854px;
+      margin: 0 auto;
+    }
+
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+    }
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 <body>
   <h1>Educate Me</h1>
   <section>
     <h2>TED Talks</h2>
-    <div style="max-width:854px">
-      <div style="position:relative;height:0;padding-bottom:56.25%">
-        <iframe src="https://www.youtube.com/embed/GNZBSZD16cY" width="800" height="500"></iframe>
+    <div class="video-container">
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/GNZBSZD16cY" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
-    <div style="max-width:854px">
-      <div style="position:relative;height:0;padding-bottom:56.25%">
-        <iframe src="https://www.youtube.com/embed/arj7oStGLkU" width="800" height="500"></iframe>
+    <div class="video-container">
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </section>
   <section>
     <h2>RSA Animations</h2>
-    <h3>Video 1:Changing Education Paradigms </h3>
-    <div style="max-width:854px">
-      <div style="position:relative;height:0;padding-bottom:56.25%">
-        <iframe src="https://www.youtube.com/embed/zDZFcDGpL4U" width="800" height="500"></iframe>
+    <div class="video-container">
+      <h3>Video 1: Changing Education Paradigms</h3>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/zDZFcDGpL4U" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </section>
   <section>
-    <h2>Video 2: How to help every child fulfill their potential</h2>
-    <div style="max-width:854px">
-      <div style="position:relative;height:0;padding-bottom:56.25%">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yl9TVbAal5s?si=klLDin3tlikAiVoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-    </div>
-    <h3>Video 3: Economics is for everyone!</h3>
-    <div style="max-width:854px">
-      <div style="position:relative;height:0;padding-bottom:56.25%">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/NdbbcO35arw?si=1xJvyYAPbBze1ZIX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h2>Video 1: How to help every child fulfill their potential</h2>
+    <div class="video-container">
+      <h3>Video 2: How to help every child fulfill their potential</h3>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/NdbbcO35arw" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </section>
 </body>
+</html>
 </html>
 
