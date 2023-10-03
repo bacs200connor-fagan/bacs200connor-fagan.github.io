@@ -1,54 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Superheroes</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
-</head>
-<body>
-    <h1>Favorite Superheroes</h1>
+    <head>
+        <meta charset="UTF-8">
+        <title>Superheroes</title>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Alias</th>
-                <th>Image</th>
-                <th>Superpower</th>
-                <th>Weakness</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Leonardo</td>
-                <td>Leo</td>
-                <td><a href="https://search.brave.com/search?q=Leonardo%20(%22Leo%22)"><img src="image1.jpg" alt="Superhero 1" style="height: 100px;"></a></td>
-                <td>Super Strength</td>
-                <td>Too serious</td>
-            </tr>
-            <tr>
-                <td>Raphael</td>
-                <td>Raph</td>
-                <td><a href="https://search.brave.com/search?q=Raphael%20(%22Raph%22)"><img src="image2.jpg" alt="Superhero 2" style="height: 100px;"></a></td>
-                <td>Leader</td>
-                <td>Temper</td>
-            </tr>
-            <tr>
-                <td>Donatello</td>
-                <td>Donnie</td>
-                <td><a href="https://search.brave.com/search?q=Donatello%20(%22Don%22%2F%22Donnie%22)"><img src="image3.jpg" alt="Superhero 3" style="height: 100px;"></a></td>
-                <td>Warrior</td>
-                <td>Forgetful</td>
-            </tr>
-            <tr>
-                <td>Michelangelo</td>
-                <td>Mikey</td>
-                <td><a href="https://search.brave.com/search?q=Michelangelo%20(%22Mike%22%2F%22Mikey%22)"><img src="image4.jpg" alt="Superhero 4" style="height: 100px;"></a></td>
-                <td>Agility</td>
-                <td>Lazy</td>
-            </tr>
-        </tbody>
-    </table>
-</body>
+        <style>
+            .heropic
+            {
+                height: 100px;
+            }
+            td, th
+            {
+                border: 2px solid black;
+                padding: 15px;
+                
+            }
+            table
+            {
+                border-spacing: 0px;
+            }
+            th
+            {
+                background-color: gray;
+                font-size: 18px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>My Superheroes</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Alias</th>
+                    <th>Image</th>
+                    <th>Superpowers</th>
+                    <th>Weaknesses</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Batman</th>
+                    <td>Bruce&nbsp;Wayne</td>
+                    <td><a href="images/batmanprofile.jpg"><img class="heropic" src="images/batmanprofile.jpg" alt="Batman Pic"></a></td>
+                    <td>N/A</td>
+                    <td>
+                        <ul>
+                            <li>Human/Vulnerable</li>
+                            <li>Childhood Trauma</li>
+                            <li>Won't Kill</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Superman</th>
+                    <td>Clark&nbsp;Kent</td>
+                    <td><a href="https://cdn.theatlantic.com/thumbor/NcreaZYqZHtPdzS9xzzjcN6gyI4=/540x0:2340x1800/1080x1080/media/img/mt/2016/01/superman/original.jpg"><img class="heropic" src="https://cdn.theatlantic.com/thumbor/NcreaZYqZHtPdzS9xzzjcN6gyI4=/540x0:2340x1800/1080x1080/media/img/mt/2016/01/superman/original.jpg" alt="Superman Pic"></a></td>
+                    <td>
+                        <ul>
+                            <li>Invulnerable</li>
+                            <li>Flight</li>
+                            <li>Super Strong</li>
+                            <li>X-Ray Vision</li>
+                            <li>Laser Eyes</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Kryptonite
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
 </html>
