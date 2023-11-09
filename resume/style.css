@@ -35,3 +35,10 @@
       list-style: none;
       padding-left: 0px;
   }
+.profile-image {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
