@@ -1,21 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" li="css/style.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Resume</title>
-    </head>
-    <body>
-        <nav>
-            <h1>Connor Fagan</h1>
-            <ul>
-                <li><a href="contactinfo.html">Contact Info</a></li>
-                <li><a href=index.html#education>Education</a></li>
-                <li><a href=index.html#experience>Experience</a></li>
-                <li><a href=skills.html>Skills</a></li>
-            </ul>
-        </nav>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume</title>
+    <style>
+        :root {
+            --UNC-Blue: #013c65;
+            --UNC-Gold: #f6b000;
+            --UNC-Gray: #8a8a8d;
+        }
+
+        body {
+            background-color: var(--UNC-Gray);
+        }
+
+        * {
+            color: var(--UNC-Blue);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: calc(12pt + 4vw);
+        }
+
+        nav {
+            border: 7px var(--UNC-Gold) solid;
+            background-color: var(--UNC-Blue);
+            color: var(--UNC-Gold);
+            padding: 20px;
+        }
+
+        section {
+            border: 5px var(--UNC-Blue) solid;
+            margin: 5px;
+            margin-top: 50px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .date {
+            color: var(--UNC-Gold);
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0px;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Connor Fagan</h1>
+        <ul>
+            <li><a href="contactinfo.html">Contact Info</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="skills.html">Skills</a></li>
+        </ul>
+    </nav>
         <section id="contactinfo">
             <h2>Contact Info</h2>
             <img src="Connor Fagan1.jpeg">
